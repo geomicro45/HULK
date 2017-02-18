@@ -32,7 +32,7 @@ end
 
 --#ENDPOINT GET /user/lock/
 -- Get the state of all the locks a given user
--- can access.
+-- can access Geovani.
 local user = util.currentUser(request)
 if user ~= nil and user.id ~= nil then
 	locks = util.getUserAccessibleItems(user.id, 'lockID')
