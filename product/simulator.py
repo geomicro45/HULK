@@ -8,7 +8,7 @@ if len(sys.argv) < 3:
     print('Usage:')
     print('   python ./simulator <product_id> <device_id>');
 
-PRODUCT_ID = sys.argv[1] # 'do5pjwoazfsf9a4i'
+PRODUCT_ID = sys.argv[1] # '1fpgrebgbupojemi'
 DEVICE_ID = sys.argv[2]  # '001'
 TIMEOUT_MILLIS = '10000'
 

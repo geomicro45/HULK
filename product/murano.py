@@ -2,7 +2,7 @@
 #
 # Usage: instantiate with a product and device id, then call activate()
 #
-import requests
+#import requests
 import email.utils as eut
 import datetime
 try:
