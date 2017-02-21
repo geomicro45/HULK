@@ -1,0 +1,10 @@
+# Murano Product Spec File - Lock Example
+
+
+resources:
+-   alias: lock-command 
+    format: string
+-   alias: lock-state
+    format: string
+-   alias: battery-percent
+    format: integer
